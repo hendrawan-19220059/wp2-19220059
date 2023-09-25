@@ -4,7 +4,7 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class UserModel extends Model
+class Model_Latihan1 extends Model
 {
     public $nilai1, $nilai2, $hasil;
 
