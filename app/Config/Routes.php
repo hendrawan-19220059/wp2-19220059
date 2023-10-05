@@ -9,5 +9,11 @@ use CodeIgniter\Router\RouteCollection;
 $routes->setAutoRoute(true);
 
 $routes->get('/', 'Home::index');
+
+// Contoh
 $routes->get('/contoh', 'Contoh::index');
 $routes->get('/contoh/penjumlahan/(:num)/(:num)', 'Contoh::penjumlahan/$1/$2');
+
+// Mata Kuliah
+$routes->get('/matakuliah', 'Matakuliah::index');
+$routes->post('/matakuliah/cetak', 'Matakuliah::cetak');
