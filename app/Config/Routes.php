@@ -17,3 +17,6 @@ $routes->get('/contoh/penjumlahan/(:num)/(:num)', 'Contoh::penjumlahan/$1/$2');
 // Mata Kuliah
 $routes->get('/matakuliah', 'Matakuliah::index');
 $routes->post('/matakuliah/cetak', 'Matakuliah::cetak');
+
+// Web
+$routes->get('/web', 'web::index');
