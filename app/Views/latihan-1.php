@@ -9,6 +9,5 @@
     <h1>Halaman Latihan 1</h1>
 
 
-    <p>Oke</p>
 </body>
 </html>
